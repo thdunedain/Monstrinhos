@@ -10,7 +10,7 @@ st.sidebar.header("Opções de Personalização")
 # Caixas de seleção para características do monstro
 cor = st.sidebar.selectbox("Escolha a Cor do Monstro", ["Verde", "Azul", "Vermelho","Roxo"])
 pele = st.sidebar.selectbox("Escolha a Pele do Monstro", ["Escamas", "Pelos","Gosma"])
-habilidades = st.sidebar.multiselect("Escolha as Habilidades do Monstro", ["Voar", "Invisibilidade", "Respirar Fogo","Congelar"])
+habilidades = st.sidebar.multiselect("Escolha as Habilidades do Monstro", ["Voar", "Respirar Fogo","Congelar"])
 
 # Exibindo o monstro personalizado
 st.subheader("Seu Monstro Personalizado:")
