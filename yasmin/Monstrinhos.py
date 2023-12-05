@@ -17,5 +17,5 @@ st.subheader("Seu Monstro Personalizado:")
 st.write(f"Cor: {cor}")
 st.write(f"Pele: {pele}")
 st.write(f"Habilidades: {', '.join(hability)}")
- if cor == "Roxo" and pele == "Escamas" and hability == "Respirar Fogo":
-   st.image(file:///home/aluno/Downloads/image1_0.jpg)
+if cor == "Roxo" and pele == "Escamas" and hability == "Respirar Fogo":
+  st.image(file:///home/aluno/Downloads/image1_0.jpg)
