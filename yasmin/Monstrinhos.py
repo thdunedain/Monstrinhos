@@ -15,5 +15,5 @@ habilidades = st.sidebar.multiselect("Escolha as Habilidades do Monstro", ["Voar
 # Exibindo o monstro personalizado
 st.subheader("Seu Monstro Personalizado:")
 st.write(f"Cor: {cor}")
-st.write(f"Forma: {forma}")
+st.write(f"Pele: {pele}")
 st.write(f"Habilidades: {', '.join(habilidades)}")
