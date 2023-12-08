@@ -18,7 +18,7 @@ imagens = {
   ('Azul', 'Escamas', 'Respirar Fogo'): " imagem"
   ('Verde', 'Escamas', 'Respirar Fogo'): " imagem"
   ('Roxo', 'Gosma', 'Respirar Fogo'): " imagem"
-  (Vermelho', 'Gosma', 'Respirar Fogo'): " imagem"
+  ('Vermelho', 'Gosma', 'Respirar Fogo'): " imagem"
   ('Azul', 'Gosma', 'Respirar Fogo'): " imagem"
   ('Verde', 'Gosma', 'Respirar Fogo'): " imagem"
   ('Roxo', 'Pelos', 'Respirar Fogo'): " imagem"
