@@ -10,7 +10,7 @@ st.sidebar.header("Opções de Personalização")
 # Caixas de seleção para características do monstro
 cor = st.sidebar.selectbox("Escolha a Cor do Monstro", ["Verde", "Azul", "Vermelho","Roxo"])
 pele = st.sidebar.selectbox("Escolha a Pele do Monstro", ["Escamas", "Pelos","Penas"])
-hablity = st.sidebar.selectbox("Escolha as Habilidades do Monstro", ["Respirar Fogo","Congelar"])
+hability = st.sidebar.selectbox("Escolha as Habilidades do Monstro", ["Respirar Fogo","Congelar"])
 
 imagens = { 
   ('Roxo', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/962800aa-3cfa-4850-9b38-1df2f596fb55",
