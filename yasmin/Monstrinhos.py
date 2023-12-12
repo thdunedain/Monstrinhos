@@ -14,7 +14,7 @@ poder = st.sidebar.selectbox("Escolha as Habilidades do Monstro", ["Respirar Fog
 
 imagens = { 
   ('Roxo', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/962800aa-3cfa-4850-9b38-1df2f596fb55",
-  ('Vermelho', 'Escamas', 'Respirar Fogo') "blob:https://web.whatsapp.com/c8a5963e-bb0c-4da4-9153-107d7aceb6d8",
+  ('Vermelho', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/c8a5963e-bb0c-4da4-9153-107d7aceb6d8",
   ('Azul', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/503010be-8a81-43c8-8361-d3b872b98048",
   ('Verde', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/a52ef481-38b5-4513-b27c-1e2c7b683ea4",
   ('Roxo', 'Penas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/f882caab-4596-4e6b-8e6f-54d4c67abf7a",
@@ -41,7 +41,9 @@ imagens = {
  }
 
 # Exibindo o monstro personalizado
-ch_co = (cor, pele, poder)
-im_mo = imagens.get(ch_co, 'url_default')
-
-st.image(im_mo, caption = 'Seu Monstro')
+st.subheader("Seu Monstro Personalizado:")
+st.write(f"Cor: {cor}")
+st.write(f"Pele: {pele}")
+st.write(f"Habilidades: {', '.join(hability)}")
+imagem_combinacao = imagens.get((cor, pele, hability), "url_padrao_da_imagem.png")
+st.image(imagem_combinacao, caption='Monstro Personalizado', use_column_width=True)
