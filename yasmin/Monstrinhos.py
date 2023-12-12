@@ -44,6 +44,6 @@ imagens = {
 st.subheader("Seu Monstro Personalizado:")
 st.write(f"Cor: {cor}")
 st.write(f"Pele: {pele}")
-st.write(f"Habilidades: {', '.join(hability)}")
+st.write(f"Habilidades: {hability}")
 imagem_combinacao = imagens.get((cor, pele, hability), "url_padrao_da_imagem.png")
 st.image(imagem_combinacao, caption='Monstro Personalizado', use_column_width=True)
