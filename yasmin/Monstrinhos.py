@@ -13,7 +13,7 @@ pele = st.sidebar.selectbox("Escolha a Pele do Monstro", ["Escamas", "Pelos","Pe
 hability = st.sidebar.selectbox("Escolha as Habilidades do Monstro", ["Respirar Fogo","Congelar"])
 
 imagens = { 
-  ('Roxo', 'Escamas', 'Respirar Fogo'): st.markdown("https://i.pinimg.com/736x/f5/81/11/f58111479070fbd86720b8e5a502a914.jpg"),
+  ('Roxo', 'Escamas', 'Respirar Fogo'): st.markdown(https://i.pinimg.com/736x/f5/81/11/f58111479070fbd86720b8e5a502a914.jpg),
   ('Vermelho', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/c8a5963e-bb0c-4da4-9153-107d7aceb6d8",
   ('Azul', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/503010be-8a81-43c8-8361-d3b872b98048",
   ('Verde', 'Escamas', 'Respirar Fogo'): "blob:https://web.whatsapp.com/a52ef481-38b5-4513-b27c-1e2c7b683ea4",
