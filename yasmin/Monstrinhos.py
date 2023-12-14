@@ -50,8 +50,8 @@ st.write(f"Habilidades: {hability}")
 imagem_combinacao = imagens.get((cor, pele, hability), "url_padrao_da_imagem.png")
 st.image(imagem_combinacao, caption='Monstro Personalizado', use_column_width=True)
 
-João Hallysson Alves da Silva
-Yasmin de Oliveira Martins 
-S2 T-1
+#João Hallysson Alves da Silva
+#Yasmin de Oliveira Martins 
+#S2 T-1
 
 
