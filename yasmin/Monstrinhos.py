@@ -1,16 +1,18 @@
 # Importando a biblioteca Streamlit
 import streamlit as st
 
-# Título da aplicação
+# Título para o Jogo
 st.title("Crie Seu Próprio Monstro")
 
 # Sidebar para opções de personalização
 st.sidebar.header("Opções de Personalização")
 
-# Caixas de seleção para características do monstro
+# Opções para selecionar características do monstro
 cor = st.sidebar.selectbox("Escolha a Cor do Monstro", ["Verde", "Azul", "Vermelho","Roxo"])
 pele = st.sidebar.selectbox("Escolha a Pele do Monstro", ["Escamas", "Pelos","Penas"])
 hability = st.sidebar.selectbox("Escolha as Habilidades do Monstro", ["Respirar Fogo","Congelar"])
+
+# Biblioteca de imagens para serem mostradas quando o monstro estiver pronto
 
 imagens = { 
   ('Roxo', 'Escamas', 'Respirar Fogo'): "https://i.pinimg.com/736x/f5/81/11/f58111479070fbd86720b8e5a502a914.jpg",
